@@ -1,11 +1,11 @@
 ./build.ps1
 
 $compress = @{
-    Path = "./build/Test.luac", "./manifest.json"
-    DestinationPath = "Test.luna"
+    Path = "./build/#{name}.luac", "./manifest.json"
+    DestinationPath = "#{name}.luna"
 }
 
-Remove-Item "Test.luna"
+Remove-Item "#{name}.luna"
 
 Write-Output "Compressing archive..."
 Compress-Archive @compress
