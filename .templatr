@@ -1,0 +1,11 @@
+{
+  "name": "Luna Script Template",
+  "author": "Millzy",
+  "src": "./template",
+  "description": "Template for creating scripts for Luna",
+  "placeholders": [
+    {"match": "#{name}", "prompt": "The name of the script"},
+    {"match": "#{author}", "prompt": "The author of the script"},
+    {"match": "#{version}", "prompt": "The version of the script"}
+  ]
+}

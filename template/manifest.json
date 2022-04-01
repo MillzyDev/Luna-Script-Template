@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/MillzyDev/bsq-Luna/main/schema/luna.json",
+  "_LunaVersion": "1.0.0",
+  "name": "#{name}",
+  "author": "#{author}",
+  "version": "#{version}",
+  "entrypoint": "#{name}.luac"
+}
