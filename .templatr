@@ -4,8 +4,8 @@
   "src": "./template",
   "description": "Template for creating scripts for Luna",
   "placeholders": [
-    {"match": "#{name}", "prompt": "The name of the script"},
-    {"match": "#{author}", "prompt": "The author of the script"},
-    {"match": "#{version}", "prompt": "The version of the script"}
+    {"match": "#{name}", "prompt": "The name of the addon"},
+    {"match": "#{author}", "prompt": "The author of the addon"},
+    {"match": "#{version}", "prompt": "The version of the addon"}
   ]
 }
